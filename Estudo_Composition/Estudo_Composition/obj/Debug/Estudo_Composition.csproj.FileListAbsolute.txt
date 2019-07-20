@@ -1,0 +1,7 @@
+C:\Users\Paulo\Documents\Estudo\Exercicios CSharp\Estudo_Composition\Estudo_Composition\bin\Debug\Estudo_Composition.exe.config
+C:\Users\Paulo\Documents\Estudo\Exercicios CSharp\Estudo_Composition\Estudo_Composition\bin\Debug\Estudo_Composition.exe
+C:\Users\Paulo\Documents\Estudo\Exercicios CSharp\Estudo_Composition\Estudo_Composition\bin\Debug\Estudo_Composition.pdb
+C:\Users\Paulo\Documents\Estudo\Exercicios CSharp\Estudo_Composition\Estudo_Composition\obj\Debug\Estudo_Composition.csprojAssemblyReference.cache
+C:\Users\Paulo\Documents\Estudo\Exercicios CSharp\Estudo_Composition\Estudo_Composition\obj\Debug\Estudo_Composition.csproj.CoreCompileInputs.cache
+C:\Users\Paulo\Documents\Estudo\Exercicios CSharp\Estudo_Composition\Estudo_Composition\obj\Debug\Estudo_Composition.exe
+C:\Users\Paulo\Documents\Estudo\Exercicios CSharp\Estudo_Composition\Estudo_Composition\obj\Debug\Estudo_Composition.pdb
