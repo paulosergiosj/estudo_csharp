@@ -1,0 +1,6 @@
+C:\Users\Paulo\Documents\Estudo\Exercicios CSharp\Exercicio_Enum\Exercicio_Enum\bin\Debug\Exercicio_Enum.exe.config
+C:\Users\Paulo\Documents\Estudo\Exercicios CSharp\Exercicio_Enum\Exercicio_Enum\bin\Debug\Exercicio_Enum.exe
+C:\Users\Paulo\Documents\Estudo\Exercicios CSharp\Exercicio_Enum\Exercicio_Enum\bin\Debug\Exercicio_Enum.pdb
+C:\Users\Paulo\Documents\Estudo\Exercicios CSharp\Exercicio_Enum\Exercicio_Enum\obj\Debug\Exercicio_Enum.csproj.CoreCompileInputs.cache
+C:\Users\Paulo\Documents\Estudo\Exercicios CSharp\Exercicio_Enum\Exercicio_Enum\obj\Debug\Exercicio_Enum.exe
+C:\Users\Paulo\Documents\Estudo\Exercicios CSharp\Exercicio_Enum\Exercicio_Enum\obj\Debug\Exercicio_Enum.pdb
