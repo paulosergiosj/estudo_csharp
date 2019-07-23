@@ -47,7 +47,7 @@ namespace Exercicio_Composition_Enum
             Console.WriteLine();
             Console.WriteLine("Order Summary: ");
             Console.WriteLine(order.ToString());
-
+            Console.ReadKey();
         }
     }
 }
