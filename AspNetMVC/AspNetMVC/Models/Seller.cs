@@ -31,6 +31,7 @@ namespace AspNetMVC.Models
         [Range(100.00,50000.0,ErrorMessage ="{0} must be from {1} to {2}")]
         public double BaseSalary { get; set; }
         public Department Department { get; set; }
+        [Display(Name = "Department")]
         public int DepartmentID { get; set; }
         public ICollection<SalesRecord> Sales { get; set; } = new List<SalesRecord>();
 

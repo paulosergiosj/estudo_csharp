@@ -3,56 +3,26 @@
 }
 
 <h2>@ViewData["Title"]</h2>
-<div class="row">
-    <div class="col-md-6">
-        <form class="form-horizontal" asp-action="SimpleSearch">
-            <fieldset>
-                <legend>Simple search</legend>
-                <div class="form-group">
-                    <label for="minDate" class="col-lg-2 control-label">Min Date</label>
-                    <div class="col-lg-10">
-                        <input type="date" name="minDate" class="form-control" />
-                    </div>
-                </div>
-                <div class="form-group">
-                    <label for="maxDate" class="col-lg-2 control-label">Max Date</label>
-                    <div class="col-lg-10">
-                        <input type="date" name="maxDate" class="form-control" />
-                    </div>
-                </div>
-                <div class="form-group">
-                    <div class="col-lg-10 col-lg-offset-2">
-                        <button type="submit" class="btn btn-primary">Submit</button>
-                    </div>
-                </div>
-            </fieldset>
-        </form>
-    </div>
-</div>
+<hr />
 
-<div class="row">
-    <div class="col-md-6">
-        <form class="form-horizontal" asp-action="GroupingSearch">
-            <fieldset>
-                <legend>Grouping search</legend>
+<a asp-action="Create" class="btn btn-primary">Create New</a>
+<br />
+<br />
+<nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+        <form class="navbar-form navbar-left" role="search">
+            <div class="form-group">
                 <div class="form-group">
-                    <label for="minDate" class="col-lg-2 control-label">Min Date</label>
-                    <div class="col-lg-10">
-                        <input type="date" name="minDate" class="form-control" />
-                    </div>
+                    <label for="minDate">Min Date</label>
+                    <input type="date" class="form-control" name="minDate" value=@ViewData["minDate"] />
                 </div>
                 <div class="form-group">
-                    <label for="maxDate" class="col-lg-2 control-label">Max Date</label>
-                    <div class="col-lg-10">
-                        <input type="date" name="maxDate" class="form-control" />
-                    </div>
+                    <label for="maxDate">Max Date</label>
+                    <input type="date" class="form-control" name="maxDate" value=@ViewData["maxDate"] />
                 </div>
-                <div class="form-group">
-                    <div class="col-lg-10 col-lg-offset-2">
-                        <button type="submit" class="btn btn-primary">Submit</button>
-                    </div>
-                </div>
-            </fieldset>
+            </div>
+            <input type="submit" value="Simple Search" asp-action="SimpleSearch" class="btn btn-primary">
+            <input type="submit" value="Grouping Search" asp-action="GroupingSearch" class="btn btn-primary">
         </form>
     </div>
-</div>
+</nav>

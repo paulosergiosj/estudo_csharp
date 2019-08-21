@@ -15,6 +15,12 @@ namespace AspNetMVC.Services
         {
             _context = context;
         }
+
+        public async Task InsertAsync(SalesRecord obj)
+        {
+            _context.Add(obj);
+            await _context.SaveChangesAsync();
+        }
         public async Task<List<SalesRecord>> FindByDateAsync(DateTime? minDate,DateTime? maxDate)
         {
             var result = from obj in _context.SalesRecord select obj;
@@ -50,6 +56,11 @@ namespace AspNetMVC.Services
                 .OrderByDescending(x => x.Date)
                 .GroupBy(x=>x.Seller.Department)
                 .ToListAsync();
+        }
+
+        public async Task<List<SalesRecord>> FindAllAsync()
+        {
+            return await _context.SalesRecord.ToListAsync();
         }
     }
 }

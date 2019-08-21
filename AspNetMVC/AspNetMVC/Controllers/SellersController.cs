@@ -42,7 +42,7 @@ namespace AspNetMVC.Controllers
             {
                 var department =await _departmentService.FindAllAsync();
                 var viewModel = new SellerFormViewModel { Seller = seller, Departments = department };
-                return View(seller);
+                return View(viewModel);
             }
 
             await _sellerService.InsertAsync(seller);
@@ -113,7 +113,7 @@ namespace AspNetMVC.Controllers
             {
                 var department =await _departmentService.FindAllAsync();
                 var viewModel = new SellerFormViewModel { Seller = seller, Departments = department };
-                return View(seller);
+                return View(viewModel);
             }
 
             if (id != seller.ID)
